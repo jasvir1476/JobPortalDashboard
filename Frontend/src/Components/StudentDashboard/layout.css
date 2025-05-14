@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.layout {
+    display: flex;
+    height: 100vh!important;
+}
+
+.student-sidebar {
+    width: 16rem;
+    background: #3e5c76;
+    padding: 20px !important;
+    height: 100vh!important;
+}
+
+.dashboard-txt {
+    color: white;
+    font-size: 20px;
+}
+
+.student-sidebar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.student-sidebar ul li {
+    width: 100%;
+    padding: 23px !important;
+    display: flex;
+}
+
+.student-sidebar ul li a {
+    color: white;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.student-sidebar ul li:hover:not(:first-child) {
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+}
+
